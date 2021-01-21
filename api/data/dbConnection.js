@@ -1,5 +1,5 @@
 var MongoClient=require('mongodb').MongoClient;
-var dbUrl=config('dbUrl');
+var dbUrl='mongodb+srv://admin:mongoauthentication@hotelcluster.pl4nz.mongodb.net/meanhotel?retryWrites=true&w=majority'
 
 var _connection=null;
 var open=function(){
