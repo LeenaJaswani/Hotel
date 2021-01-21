@@ -27,7 +27,7 @@ var roomSchema = new mongoose.Schema({
     description : String, 
     photos : [String], 
     price : Number
-});
+}); 
 
 var hotelSchema = new mongoose.Schema({
     name : {
