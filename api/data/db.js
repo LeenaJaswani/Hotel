@@ -1,5 +1,4 @@
-var mongoose=require('mongoose');
-var dbUrl='mongodb+srv://admin:mongoauthentication@hotelcluster.pl4nz.mongodb.net/meanhotel?retryWrites=true&w=majority';
+var mongoose=require('mongoose');var dbUrl=process.env.dbUrl;
 mongoose.connect(dbUrl);
 
 mongoose.connection.on('connected',function(){
